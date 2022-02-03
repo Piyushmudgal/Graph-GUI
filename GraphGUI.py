@@ -131,6 +131,7 @@ class GraphGui:
 
         self.stats = Stats()
 
+        #author Subhadip Nandi
     def _create_node(self, x, y):
         # if len(self.nodes) % 3 == 0:
         #     self.turtle = turtle.Turtle()
@@ -140,6 +141,7 @@ class GraphGui:
         self.nodes[new_node.id] = new_node
         return new_node.id
 
+    #author Subhadip Nandi
     def _create_edge(self, n1, n2):
         if n1.id > n2.id:
             temp = n1
@@ -149,6 +151,7 @@ class GraphGui:
         self.graph.addEdge(n1.id, n2.id)
         self.edges[str(n1.id) + ',' + str(n2.id)] = new_edge
 
+    #author Subhadip Nandi
     def delete(self):
         if self.selected_node is not None:
             self.graph.deleteNode(self.selected_node)
