@@ -1,3 +1,4 @@
+#author Nipun Rautela
 from time import time, sleep
 import asyncio
 
@@ -274,6 +275,7 @@ class GraphGui:
         self.screen.listen()
         self.busy = False
 
+        #author Piyush Mudgal
     def dfs(self):
         self.busy = True
         starting_node = int(turtle.numinput("Starting node", "Enter Starting node: ", 0))
