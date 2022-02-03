@@ -1,3 +1,4 @@
+#author Piyush Mudgal
 from GraphInterface import GraphInterface
 
 
@@ -90,6 +91,7 @@ class Graph(GraphInterface):
         path.reverse()
         return path
 
+    #author Desharaju Sai Abhishek
     def DFS(self, start, dest):
         stack = [[start]]
         visited = [0]
