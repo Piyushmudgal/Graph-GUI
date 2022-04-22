@@ -12,3 +12,5 @@ Press 'd' to delete selected Node/Edge.
 Press 'b' to start BFS.
 
 Press 'x' to start DFS.
+
+Press 't' to export as a csv file.
